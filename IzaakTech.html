@@ -1,0 +1,1217 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta http-equiv="x-ua-compatible" content="ie=egdge">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+	
+	
+
+	<style type="text/css">
+	
+		body{
+		
+			background-image:url("images/wp7.jpg");
+			background-size:     cover;                     
+			background-repeat:   no-repeat;
+			background-position: center center; 
+			height:100%;
+			width:100%;
+			
+		
+		}
+		
+		h4{
+		
+			color:#5559CE;;
+			font-size:45px;
+			font-family:questa;
+			
+		
+		
+		}
+		
+		.navbar{
+			
+			padding:.6rem;
+			
+		}
+		
+		.navbar-nav li {
+			
+			padding-right:20px;
+		
+		}
+		
+		.nav-link{
+		
+			font-size:16px;
+			font-family:questa;
+			color:#5559CE;
+			font-style:bold;
+		
+		}
+		
+		#menulogo{
+		
+			height:40px;
+			
+		
+		}
+		
+		.carousel-inner img{
+		
+			width:100%;
+			height:100%:
+		
+		}
+		
+		.carousel-item:after {
+		
+			  content:"";
+			  display:block;
+			  position:absolute;
+			  top:0;
+			  bottom:0;
+			  left:0;
+			  right:0;
+			  background:rgba(0,0,0,0.6);
+			  
+		}
+		
+		.carousel-caption{
+		
+			position:absolute;
+			top:50%;
+			transform:translateY(-50%);
+			
+		}
+		
+		.carousel-caption h1{
+			margin-top:-50px !important;
+			padding-bottom:60px;
+			font-family:questa;
+			font-size:95px;
+			text-shadow:3px 3px 10px #5559CE;
+		}
+		
+		.carousel-caption p{
+			
+			font-family:Apple Chancery, cursive;
+			font-size:40px;
+			padding-bottom:40px;
+			
+		}
+		
+		.btn-primary{
+		
+			background-color: #5559CE;
+			border:1px solid #5559CE;
+		
+		}
+		
+		.jumbotron{
+		
+			border-radius:0;
+		
+			margin-bottom:0px;
+
+		}
+		
+		.welcome{
+			
+			color: #5559CE;
+			font-size:80px;
+			font-family:questa;
+			
+			
+		}
+		
+		#isaacImage{
+			
+			height:150px;
+			display:block;
+			
+		
+		}
+		
+		#aboutPg{
+			padding-top:0px;
+			background-image:url("images/abimg4.jpg "); 
+			
+			background-size:     cover;                     
+			background-repeat:   no-repeat;
+			background-position: center center; 
+			color:white;
+		}
+		
+		.aboutClass{
+			background:rgb(0,0,0,0.8);
+			border-radius:20px;
+		}
+		
+		.aboutMe{
+		
+			padding-top:35px;
+			padding-bottom:35px;
+		
+		}
+		
+		.lead:first-letter {
+			
+			font-weight:bold; 
+			font-size:50px; 
+			font-family:questa;
+			line-height:1; 
+			float:left;
+			margin-right:9px;
+			margin-bottom:0px;
+			
+		}
+		.lead{
+			
+			padding-top:10px;
+			font-family:sans serif;
+			
+		}
+		
+		#skillDiv{
+		
+			background: rgb(204, 204, 179, 0.4);
+			width:100%;
+			height:850px;
+		
+		}
+		
+		
+		.icons{
+			
+			height:100px;
+			padding-bottom:10px;
+		
+		}
+		
+		#skillMove{
+			
+			padding-top:70px;
+		
+		
+		}
+		
+		.skillIcons{
+			
+			padding-bottom:90px;
+		
+		}
+		
+		.iconParagraph{
+			
+			font-style:italic;
+			font-weight:bold;
+			font-family:Apple Chancery, cursive;
+			
+		
+		}
+		
+		#portfolioContainer{
+		
+			padding-top:80px;
+		
+		}
+		
+		#myPortfolio{
+			
+			background-color:white;
+			width:100%;
+			height:2000px;
+		
+		}
+		
+		.pfHead{
+			
+			color:#007BFF;
+			font-size:32px;
+			font-family:questa;
+			text-decoration:none;
+			
+		}
+		
+		.pfHead2{
+		
+			padding-left:20px;
+			
+		}
+		
+		.pfHead:hover{
+		
+			text-decoration:none;
+			
+		}
+		
+		.pfPara{
+		
+			font-family:Apple Chancery, cursive;
+		
+		}
+		
+		#pfimg{
+		
+			margin-right:50px;
+			
+		}
+		
+		.boxshadow{
+		
+			
+		
+		}
+		
+		#serviceContainer{
+		
+			padding-top:30px;
+		
+		}
+		
+		.moveService{
+			
+			padding-top:30px;
+		
+		}
+		
+		.serviceIcons{
+			
+			padding-left:25%;
+			padding-bottom:25px;
+			
+		}
+		
+		
+		figure {
+			
+		  position: relative;
+		  width: 100%;
+		  height: 700px;
+		  margin: 0!important;
+		  
+		}
+		
+		.fixed-wrap {
+		
+		  clip: rect(0, auto, auto, 0);
+		  position: absolute;
+		  top: 0;
+		  left: 0;
+		  width: 100%;
+		  height: 100%;
+		  
+		}
+		
+		#fixed {
+		
+		  background-image: url("images/fix.png");
+		  position: fixed;
+		  display: block;
+		  top: 0;
+		  left: 0;
+		  width: 100%;
+		  height: 100%;
+		  background-size: cover;
+		  background-position: center center;
+		  -webkit-transform: translateZ(0);
+				  transform: translateZ(0);
+		  will-change: transform;
+		  
+		}
+		
+		.pf{
+		
+			height:300px;
+			padding-top:45px;
+			
+		}
+		
+		footer{
+			
+			font-family:sans serif;
+			color:white;
+			width:100%;
+			height:480px;
+			background-color:#343A40;
+			margin-top:40px;
+		}
+		
+		
+		#talkMe{
+		
+			padding-top:50px;
+		
+		}
+		
+		.site-form{
+			
+			padding-top:20px;
+		
+		}
+		
+		.spanPara{
+		
+			padding-left:20px;
+		
+		}
+		
+		#footerContainer{
+		
+			padding-top:40px;
+		
+		}
+		
+	
+		
+		.contactParagraph{
+		
+			font-size:30px;
+			
+		}
+		
+		#connectDiv{
+		
+			padding-top:45px;
+		
+		}
+		
+		.social{
+		
+			padding-right:30px;
+		
+		}
+		
+		#lastHr{
+			
+			border-top:1px solid white;
+			
+			
+		}
+		
+		.no-padding-right{
+			
+				padding
+				:none !important;
+			}
+		
+		#copyright{
+		
+			padding-top:37px;
+		
+		}
+		
+		.quote{
+			
+			font-family:sans serif;
+			font-size:40px;
+			color:white;
+			font-style:italic;
+		
+		}
+		.nquote{
+		
+			font-family:sans serif;
+			font-size:40px;
+			color:white;
+			
+		}
+		
+		
+		
+		
+		@media (min-width: 320px) { 
+			
+			body{
+			
+			background-position:fixed;
+			
+			}
+				
+			.carousel-caption{
+		
+			top:45%;
+			
+			
+		}
+		
+		.carousel-caption h1{
+			
+			
+			font-size:43px;
+			
+		}
+		
+		.carousel-caption p{
+			
+			
+			font-size:20px;
+			
+			
+		}
+		
+		.button1{
+			
+			font-size:15px;
+			
+		}
+		
+		.jumbotron{
+			
+			height:120px;
+		
+		}
+		
+		.welcome{
+		
+			font-size:50px;
+		
+		}
+		
+		#skillDiv{
+		
+			
+			height:1500px;
+		
+		}
+		
+		#myPortfolio{
+			
+			
+			height:2300px;
+		
+		}
+		
+		
+		
+		.quote{
+			
+			padding-top:30px;
+			font-size:30px;
+		
+		}
+		.nquote{
+		
+			
+			font-size:30px;
+			
+			
+		}
+			
+		}
+		
+		
+		
+		
+		
+			
+			
+		}
+		
+
+		@media (min-width: 576px) { 
+			
+			.carousel-caption{
+		
+			top:45%;
+			
+			
+		}
+		
+		.carousel-caption h1{
+			
+			
+			font-size:50px;
+			
+		}
+		
+		.carousel-caption p{
+			
+			
+			font-size:22px;
+			
+			
+		}
+		
+		.jumbotron{
+			
+			height:150px;
+		
+		}
+		
+		.welcome{
+		
+			font-size:60px;
+			
+		
+		}
+		
+		#skillDiv{
+		
+			
+			height:900px;
+		
+		}
+		
+		
+		#myPortfolio{
+			
+			
+			height:1500px;
+		
+		}
+
+		}
+		
+		
+		
+		@media (min-width: 768px) {
+		
+		
+			.carousel-caption{
+		
+			top:50%;
+			
+			
+		}
+		
+		.carousel-caption h1{
+			
+			
+			font-size:65px;
+			
+		}
+		
+		.carousel-caption p{
+			
+			
+			font-size:30px;
+			
+			
+		}
+		
+		
+		#myPortfolio{
+			
+			
+			height:2100px;
+		
+		}
+		
+		}
+
+		
+		
+		@media (min-width: 992px) {
+			
+			.carousel-caption{
+		
+			top:50%;
+			
+			
+		}
+		
+		.carousel-caption h1{
+			
+			
+			font-size:72px;
+			
+		}
+		
+		.carousel-caption p{
+			
+			
+			font-size:32px;
+			
+			
+		}
+		
+			#myPortfolio{
+			
+			
+			height:1400px;
+		
+		}
+		
+		.button1{
+			
+			font-size:20px;
+			
+		}
+		
+		.quote{
+			
+			
+			font-size:35px;
+			
+		
+		}
+		.nquote{
+		
+			
+			font-size:35px;
+			
+			
+		}
+		
+		}
+
+		
+		
+	@media (min-width: 1200px) { 
+
+			.carousel-caption{
+		
+			top:53%;
+			
+			
+		}
+		
+		.carousel-caption h1{
+			
+			
+			font-size:90px;
+			
+		}
+		
+		.carousel-caption p{
+			
+			
+			font-size:32px;
+			
+			
+		}
+		
+		#myPortfolio{
+			
+			
+			height:1400px;
+		
+		}
+		
+		.quote{
+			
+			
+			font-size:40px;
+			
+		
+		}
+		.nquote{
+		
+			
+			font-size:40px;
+			
+			
+		}
+		
+		#skillDiv{
+		
+			
+			height:900px;
+		
+		}
+		
+		.jumbotron{
+			
+			height:180px;
+		
+		}
+		.welcome{
+		
+			font-size:80px;
+		
+		}
+		
+
+	}
+	
+
+
+	
+	</style>
+	
+    <title>Izaak Tech</title>
+	
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
+	
+		
+			
+		
+		
+	
+	
+  </head>
+  
+  
+  
+  <body data-spy="scroll" data-target=".navbar">	
+	
+<!-- Navigation -->
+
+	<nav class="navbar navbar-expand-md navbar-light bg-white sticky-top">
+	
+		<div class="container-fluid">
+			
+		
+			<a class="navbar-brand" href="#"><img id= "menulogo" src="images/menulogo2.jpg"></a>
+			
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			
+			<div class="collapse navbar-collapse" id="navbarResponsive">
+			
+				<ul class="navbar-nav ml-auto">
+					<li class="nav-item">
+						<a class="nav-link active" href ="#carouselExampleIndicators">Home</a>
+					</li>
+					
+					<li class="nav-item">
+						<a class="nav-link" href ="#aboutPg">About</a>
+					</li>
+					
+					<li class="nav-item">
+						<a class="nav-link" href ="#skillDiv">Skills</a>
+					</li>
+					
+					<li class="nav-item">
+						<a class="nav-link" href ="#myPortfolio">Portfolio</a>
+					</li>
+					
+					
+					<li class="nav-item">
+						<a class="nav-link" href ="#talkMe">Contact</a>
+					</li>
+					
+				
+				</ul>
+			
+			</div>
+			
+			
+			
+		</div>
+	
+	
+	</nav>
+	
+<!--- Image Slider -->
+	<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+		  <ol class="carousel-indicators">
+		  
+			<li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+			
+			
+		  </ol>
+		  <div class="carousel-inner" >
+		  
+			<div class="carousel-item active">
+			  <img class="d-block w-100" id = "bg1" src="images/bg4.jpg" alt="Izaak tech homepage image" >
+			
+				<div class="carousel-caption ">
+					<h1 class = "dispaly-2 mainHeading ">Web Designer</h4>
+					<p class = "mainParagraph ">Hello, I'm Isaac. I'm a junior web developer and yeah I design websites</p>
+					<a href="#aboutPg"><p><button type="button" class="btn btn-primary btn-lg button1">About Me</button></p></a>
+				</div>
+				
+			</div>
+			
+			
+	
+		  </div>
+		  
+		 
+		  
+		</div>
+
+
+
+<!--- Welcome Section -->
+	<div class="container-fluid padding">
+	
+		<div class="row welcome text-center">
+			<div class="col-12 jumbotron">
+			
+				<h1 class="display-4 welcome">Welcome to my website</h1>
+			
+			</div>
+		</div>
+	
+	</div>
+
+<!--- About Section -->
+
+	<div id="aboutPg" class = "container-fluid">
+		
+		<div class= "container aboutMe">
+			<div class = "row">
+				
+				<div class="col-xs-12 col=sm-12 col-md-5"></div>
+				<div class="col-xs-12 col=sm-12 col-md-4">
+				
+					<img id= "isaacImage" src="images/isaacImage.png">
+				
+				</div>
+			
+			</div>
+		
+			<div class="row padding aboutClass">
+			
+				<div class="col-xs-12 col-sm-12 col-md-4 ">
+				
+					<h4 class="display-4">About Me</h4>
+				
+				</div> 
+				
+				<div class="col-xs-12 col-sm-12 col-md-8 ">
+				
+					<p class="lead">Hi there! My name is Isaac Adetona. I'm a web developer and designer (currently at beginner level) residing in Lagos, Nigeria. I'm currently learning web design and development from Rob Percival's Udemy Course: The complete web developer course 2.0. I'm also learning responsive web design at <a style = "text-decoration:none; color:#5559CE;" href="http://freecodecamp.com">Free Code Camp.</a> I'm gonna get my certificate soon. I've got interest in  anything related to tech and I have a burning passion for web design and development <br>I'm currently a 400 level Computer Engineering student at the University of Lagos (UNILAG), Lagos, Nigeria. I've always been pasionate about computers so you can rightly guess why I'm studying computer engineering but actually I'm more interested in the Software Engineering part. So If you're looking for a young undergraduate intern in your company, Kindly <a style = "text-decoration:none; color:#5559CE;" href = "#talkMe">Contact Me</a> today.   
+					<br><br>
+					You can check out and download my Curriculum Vitae below 
+					</p>
+					
+					<a href="#"><p><button type="button" class="btn btn-primary btn-lg button1 px-4 py-3">Download CV</button></p></a>
+				
+				</div> 
+				
+			</div> 
+		</div>
+	
+	
+	
+	</div>
+
+<!--- Skill Section -->
+
+<div id="skillDiv" class="container-fluid">
+	<div class="container" id= "skillMove">
+	
+		<div class="row padding">
+				<div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-3">
+				
+					<h4 class="display-4">Skills</h4>
+				
+				</div> 
+				
+				<div class="row text-center">
+				
+					<div class="skillIcons col-xs-6 col-sm-6 col-md-6 col-lg-6 col-xl-6">
+					
+						<img class="icons" src="images/html5-icon.png">
+						<p class="iconParagraph">HTML5</p>
+						
+					
+					</div>
+					<br><br>
+					<div class="skillIcons col-xs-6 col-sm-6 col-md-6 col-lg-6 col-xl-6">
+					
+						<img class="icons" src="images/css3-icon.png">
+						<p class="iconParagraph">CSS3</p>
+					
+					</div>
+					<br><br>
+					<div class="skillIcons col-xs-6 col-sm-6 col-md-6 col-lg-6 col-xl-6">
+					
+						<img class="icons" src="images/javascript-icon.png">
+						<p class="iconParagraph">Javascript</p>
+					
+					</div>
+					<br><br>
+					<div class="skillIcons col-xs-6 col-sm-6 col-md-6 col-lg-6 col-xl-6">
+					
+						<img class="icons" src="images/jquery-icon.png">
+						<p class="iconParagraph">jQuery</p>
+					
+					</div>
+					<br><br>
+					<div class="skillIcons col-xs-6 col-sm-6 col-md-6 col-lg-6 col-xl-6">
+					
+						<img class="icons" src="images/bootstrap-icon.png">
+						<p class="iconParagraph">Bootstrap</p>
+					
+					</div>
+					<br><br>
+					<div class="skillIcons col-xs-6 col-sm-6 col-md-6 col-lg-6 col-xl-6">
+					
+						<img class="icons" src="images/wordpress-icon.png">
+						<p class="iconParagraph">Wordpress</p>
+					
+					</div>
+				
+				
+				</div>
+		</div>
+	
+	
+	</div>
+</div>	
+	
+<!--- portfolio Section -->
+
+	<div id="myPortfolio" class="container-fluid">
+		
+		<div class="container" id="portfolioContainer">
+		
+			<div class="row padding">
+				<div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-3">
+				
+					<h4 class="display-4">Portfolio</h4>
+				
+				</div> 
+			</div>	
+			
+			<div class="row padding boxshadow">
+				
+				<div class="col-lg-6" >
+					
+					<img class="pf" src="images/light.png" class="img-fluid">
+					
+				</div>
+				
+				<div class="col-lg-6  ">
+					
+					<a class="pfHead" href="http://muritalabello.com.ng"><p>Muritala Bello Blog <br> (muritalabello.com.ng)</p></a>
+					<p class="pfPara">Nullam dolor erat, euismod et enim quis, consectetur porta lectus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Cras dictum imperdiet gravida. Morbi hendrerit nunc sit amet justo cursus tempor. Mauris urna lectus, vestibulum a condimentum suscipit, tincidunt quis lectus. Nulla dignissim fermentum turpis, sit amet varius quam tincidunt nec. Nulla pretium odio eget odio vehicula rutrum. Phasellus pharetra ex varius mi euismod, vitae accumsan enim tempus. Suspendisse a ultricies tellus.</p>
+					
+				</div>
+			
+			
+			</div>
+			
+			<br><br><br>
+			
+			<div class="row padding boxshadow">
+				
+				<div class="col-lg-6 order-lg-2 order-md-1">
+					
+					<img class="pf img-fluid" src="images/pf2.png" >
+					
+				</div>
+				
+				<div class="col-lg-6 order-lg-1 order-md-2">
+					
+					<a class="pfHead" href="http://izaaktech.com"><p>My Personal Website <br> (izaaktech.com) </p></a>
+					<p class="pfPara">Nullam dolor erat, euismod et enim quis, consectetur porta lectus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Cras dictum imperdiet gravida. Morbi hendrerit nunc sit amet justo cursus tempor. Mauris urna lectus, vestibulum a condimentum suscipit, tincidunt quis lectus. Nulla dignissim fermentum turpis, sit amet varius quam tincidunt nec. Nulla pretium odio eget odio vehicula rutrum. Phasellus pharetra ex varius mi euismod, vitae accumsan enim tempus. Suspendisse a ultricies tellus.</p>
+					
+				</div>
+				
+				
+			
+			</div>
+			
+			<br><br><br>
+			
+			<div class="row padding boxshadow">
+				
+				<div class="col-lg-6  order-1">
+					
+					<img class="pf img-fluid" src="images/pf3.png" id="pfimg">
+					
+				</div>
+				
+				<div class="col-lg-6  order-2">
+					
+					<a class="pfHead" href="http://thefamilymanhub.com"><p>The Family Man Hub <br> (thefamilymanhub.com) </p></a>
+					<p class="pfPara">Nullam dolor erat, euismod et enim quis, consectetur porta lectus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Cras dictum imperdiet gravida. Morbi hendrerit nunc sit amet justo cursus tempor. Mauris urna lectus, vestibulum a condimentum suscipit, tincidunt quis lectus. Nulla dignissim fermentum turpis, sit amet varius quam tincidunt nec. Nulla pretium odio eget odio vehicula rutrum. Phasellus pharetra ex varius mi euismod, vitae accumsan enim tempus. Suspendisse a ultricies tellus.</p>
+					
+				</div>
+				
+				
+			
+			</div>
+		</div>
+		
+	<!--- Services 
+	<hr class="my-4">
+	
+		
+		<div class="container" id = "serviceContainer">
+			
+			<div class="row padding">
+				<div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-3">
+				
+					<h4 class="display-4">Services</h4>
+				
+				</div> 
+			</div>	
+		
+		<div class="row padding moveService">
+		
+			<div class="col-xs-12 col-sm-6 col-md-6">
+				
+				<img class="serviceIcons " src="images/webdesign2.png">
+				<h3  class="pfHead pfHead2 ">Website Design</h3>
+				<p class="pfPara">Nullam dolor erat, euismod et enim quis, consectetur porta lectus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Cras dictum imperdiet gravida. Morbi hendrerit nunc sit amet justo cursus tempor.</p>
+			
+			</div>
+			
+			<div class="col-xs-12 col-sm-6 col-md-6">
+				
+				<img class="serviceIcons" src="images/webdev.png">
+				<h3  class="pfHead pfHead2">Website Development</h3>
+				<p class="pfPara">Nullam dolor erat, euismod et enim quis, consectetur porta lectus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Cras dictum imperdiet gravida. Morbi hendrerit nunc sit amet justo cursus tempor.</p>
+			
+			</div>
+			
+			
+		
+		</div>
+		
+		</div>
+		
+		-->	
+	
+	
+	
+	</div>
+	
+	
+	
+	
+	
+	
+	
+
+<!--- Fixed Background 	-->
+	
+	<figure>
+	
+		<div class="fixed-wrap">
+		
+		<div id="fixed">
+		
+		<div class="container">
+		
+			<p class="quote display-4"><br><br>“A successful website does three things:
+										It attracts the right kinds of visitors.
+										Guides them to the main services or product you offer.
+										Collect Contact details for future ongoing relation.” <br>― Mohamed Saad</p>
+										<br>
+			<p  class="nquote" >...At Izaak Tech I provide you with quality service. Contact me today</p>
+		
+		</div>
+		</div>
+		
+		</div>
+	
+	</figure> 
+	
+<!--- Let's talk -->
+	<div class="container padding" id="talkMe">
+	
+		<div class="row padding">
+				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 ">
+				
+					<h4 class="display-4">Talk To Me</h4>
+				
+				</div> 
+		</div>
+
+		<div class="col-md-12 col-lg-12 ">
+		
+            <form action="" class="site-form text-center">
+              
+              <div class="form-group">
+                <input type="text" class="form-control px-3 py-4" placeholder="Your Name">
+              </div>
+              <div class="form-group">
+                <input type="email" class="form-control px-3 py-4" placeholder="Your Email">
+              </div>
+              <div class="form-group">
+                <input type="email" class="form-control px-3 py-4" placeholder="Your Phone">
+              </div>
+              <div class="form-group mb-5">
+                <textarea class="form-control px-3 py-4"cols="30" rows="10" placeholder="Write a Message"></textarea>
+              </div>
+              <div class="form-group">
+                <input type="submit" class="btn btn-primary  px-4 py-3" value="Send Message">
+              </div>
+            </form>
+			
+          </div>
+	
+	</div>
+	
+	
+	
+<!--- Footer -->
+	
+	<footer>
+	
+		<div class="container-fluid" id="footerContainer" >
+		
+		
+		 <div class="row contactDiv">	 
+			
+				<p class="col-12 text-center contactParagraph" id="">Contact Me</p>
+				<p  class="col-12 text-center" class="contactParagraph2"><i class="fas fa-map-marker-alt"></i><span class="spanPara">Sed venenatis odio et ipsum malesuada, eu pretium purus vestibulum.</span></p>
+				<p class="col-12 text-center" class="contactParagraph3"><i class="fas fa-phone"></i><span class="spanPara">+234 90 395 328 75</span></p>
+				<p class="col-12 text-center" class="contactParagraph4"><i class="fas fa-envelope"></i><span class="spanPara">adetonaisaac12345@gmail.com</span></p>
+			
+			</div>
+			
+			<div id="connectDiv">
+			
+			<div class="row padding">
+				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 ">
+				
+					<p class="text-center contactParagraph">Connect With Me</p>
+				
+				</div> 
+			</div>
+				
+			<div class="row">
+			
+				<div class="col-12 text-center">
+				
+					<a href="#"><img class="social" src="images/facebook.png"></a>
+					
+					<a href="#"><img class="social" src="images/twitter.png"></a>
+					
+					<a href="#"><img class="social" src="images/instagram.png"></a>
+					
+					<a href="#"><img class="social no-padding-right" src="images/whatsapp.png"></a>
+				
+				</div>
+				
+			</div>
+			
+			<div id="copyright">
+			<hr id="lastHr">
+			
+			 <div class="row">
+					<p class="col-12 text-center">
+					Copyright &copy; <script>document.write(new Date().getFullYear());</script> All rights reserved | Izaak Tech
+					</p>
+			</div>
+			</div>
+			</div>
+		</div>
+	
+	</footer>	
+<!--- Two Column Section -->
+
+	
+
+<!--- Connect -->
+
+
+
+	
+	
+	
+	
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  </body>
+</html>
